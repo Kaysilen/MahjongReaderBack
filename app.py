@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 from mahjong.hand_calculating.hand import HandCalculator
 from mahjong.tile import TilesConverter
 from mahjong.hand_calculating.hand_config import HandConfig
