@@ -16,5 +16,11 @@ def hello_world():
     result = calculator.estimate_hand_value(tiles, win_tile)
     return str(result.han) + ' ' + str(result.fu)
 
+@app.route('/mahjongCard', methods = ['POST'])
+def mahjongCard():
+    mahjongSet = request.get_json();
+    return jsonify(mahjongSet);
+
+
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0')
