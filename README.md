@@ -1,4 +1,3 @@
-# MahjongReaderBack
 
 사진을 통한 마작패 리더 백엔드
 
